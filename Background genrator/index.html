@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Background Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+
+    <div class="container">
+        <h1> Background Generator</h1>
+
+        <div class="color-row">
+            <div class="color-box">
+                <label>Color 1</label>
+                <input type="color" id="color1" value="#3f37ff">
+            </div>
+
+            <div class="color-box">
+                <label>Color 2</label>
+                <input type="color" id="color2" value="#f0007c">
+            </div>
+
+            <div class="color-box">
+                <label>Color 3</label>
+                <input type="color" id="color3" value="#ff7a00">
+            </div>
+        </div>
+
+        <label>Direction</label>
+        <select id="direction">
+            <option value="to right">Left → Right</option>
+            <option value="to left">Right → Left</option>
+            <option value="to bottom">Top → Bottom</option>
+            <option value="to top">Bottom → Top</option>
+        </select>
+
+        <button onclick="generateBackground()">Generate</button>
+        <button onclick="randomColors()">Random Colors </button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
