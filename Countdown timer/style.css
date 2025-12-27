@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(015, 115, 230, 0.2);
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.timer {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.timer div {
+    background: #f4f4f4;
+    padding: 15px;
+    border-radius: 8px;
+    width: 80px;
+}
+
+.timer span {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+}
+
+.timer p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: #555;
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 18px;
+    color: rgb(14, 139, 14);
+    font-weight: bold;
+}
